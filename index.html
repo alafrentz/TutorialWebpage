@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Storefront</title>
-    <link rel="stylesheet" ref="index/css" href="main.css">
+    <link rel="stylesheet"href="index.css">
+
 </head>
+
 <body>
     <!--REQUIREMENTS: 
         A): Must have separate CSS and HTMl files connected through a <link> tag
@@ -25,32 +28,123 @@
                 - For loops
                 - Conditionals
         -->
-    
+
     <!-- NAVBAR-->
-
-    
-    <nav></nav>
-    <ul>
+    <nav id="nav">
+        <ul id="topNav">
             <li><a href="">Home</a></li>
-            <li><a href="">News</a></li>
-            <li><a href="">Contact</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">link</a></li>
-          </ul>
+            <li><a href="#info">Conditionals</a></li>
+            <li><a href="#Array">Array</a></li>
+            <li><a href="#Functions">Functions</a></li>
+        </ul>
+    </nav>
+    <article>
+        <header id="header">
+            <h1>JavaScript</h1>
+        </header>
+    </article>
 
 
-    <!-- HEADER-->
 
-          <!--id="header"></section-->
 
-    <!--MAIN CONTENT-->
 
-<!--section id="mainContent"></section-->
 
-    <!--FOOTER-->
+    </header>
 
-<!--section id="footer"></section-->
+
+    <div></div>
+
+    <div id="main-content">
+
+
+        <div id="info">
+            <h2>Conditionals</h2>
+            <p>
+                Conditional statements are used to decide the flow of execution based on different conditions.
+                If a condition is true, you can perform one action and if the condition is false, you can perform
+                another action.
+                There are mainly three diffrent type of condiitional statements used in Javascript.
+            </p>
+            <br>
+            <br>
+
+            <ol class="list1">
+                <li class="listitem">The IF statement.</li>
+                <li class="listitem">The If...Else statement.</li>
+                <li class="listitem">The If ...Else If.... Else statement.</li>
+            </ol>
+
+
+
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+        <div id="Array">
+            <h2>Array</h2>
+
+            <p> An array is an object that can store a collection of items. Arrays become really useful when you need
+                to store large amounts of data of the same type.
+                Suppose you want to store details of 500 employees. If you are using variables, you will have to create
+                500 variables whereas you can do the same with a single array.
+                You can access the items in an array by referring to its indexnumber and the index of the first element
+                of an array is zero. </p>
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <div id="Functions">
+            <h2>Functions</h2>
+
+            <p> Functions are very important and useful in any programming language as they make the code reusable A
+                function is a block of code which will be executed only if it is called.
+                If you have a few lines of code that needs to be used several times, you can create a function
+                including the repeating lines of code and then call the function wherever you want.
+
+            </p>
+        </div>
+
+
+    </div>
+    <sidebar id="sidebarWrapper">
+        <h3>JavaScript Link</h3>
+        <div id="sidebarLinks">
+            <h6 class="sidebarTitle">JavaScript Help</h6>
+            <ul class="sidebarList">
+                <li>
+                    <a class="sidebarLink" target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator ">Mdn
+                        docs/Conditionals</a>
+                </li>
+                <li><a target="_blank" href="https://www.w3schools.com/java/java_arrays.asp " class="sidebarLink">w3
+                        schools/Array</a></li>
+                <li><a target="_blank" href="https://stackoverflow.com/search?q=functions+in+javascript " class="sidebarLink">stack
+                        overflow/Functions</a></li>
+                <li><a target="_blank" href="https://am-javascript-now.firebaseapp.com/#objects/" class="sidebarLink">JS
+                        Now</a></li>
+            </ul>
+        </div>
+    </sidebar>
+
+    <footer id="footer">
+        <h2></h2>
+    </footer>
+
+
+
+    <!--section id="footer"></section-->
 
 
 </body>
+
 </html>

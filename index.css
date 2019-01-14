@@ -1,0 +1,140 @@
+body {
+    margin: 0px;
+}
+
+#nav{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    background: #636262c9;
+    height: 75px;
+    overflow: hidden;
+    color: blueviolet
+    
+   
+    }
+
+ul{
+    list-style-type: none;
+
+
+
+}
+li{
+    float: right;
+}
+
+li a {
+    display: block;
+    padding: 20px 16px;
+    text-decoration: none;
+    color: white;
+
+}
+
+li a:hover{
+    background-color: rgb(158, 144, 238);
+}
+
+#main-content{
+    display: block;
+    text-align: center;
+    background-color: whgite;
+    padding: 20px 16px;
+    height: 10%;
+    float: left;
+    max-width:75%;
+}
+#footer{
+    background: white;
+    padding: 20px 16px;
+    text-align: center;
+
+}
+
+#header{
+    background: white;
+    padding: 20px 16px;
+    text-align: center;
+    font-size: 30px;
+    color: blue
+}
+#sidebarWrapper {
+    float: right;
+    margin-right: 2vw;
+    width: 20vw;
+    height: 60vh;
+    text-align: center;
+}
+
+#sidebarWrapper h6 {
+    margin: 4vh auto auto auto;
+}
+
+#sidebarWrapper h3 {
+    font-weight: 100;
+    font-size: 220%;
+    position: relative;
+    top: 8vh;
+}
+
+#sidebarLinks {
+    height: 55vh;
+    width: 20vw;
+    background-color: rgb(151, 151, 151);
+    position: relative;
+    top: 7vh;
+    border-radius: 7px;
+    text-transform: uppercase;
+    margin-top: 3vh;
+    padding-top: 1vh;
+}
+
+a.sidebarLink {
+    color: white;
+    text-decoration: none;
+    margin-right: 2vw;
+}
+
+a.sidebarLink:hover {
+    color: rgb(168, 0, 157);
+}
+
+.sidebarTitle {
+    font-size: 120%;
+    color: black;
+}
+
+.sidebarList {
+    list-style-type: none;
+    font-size: 120%;
+}
+
+#info{
+    
+    display: block;
+    background-color: white;
+    padding: 20px 16px;
+    height: 10%
+    
+}
+
+.listitem{
+    
+    float: none;
+
+}
+#topNav{
+        animation-duration: 3s;
+        animation-name: slidein;
+}
+
+@keyframes slidein{
+    from {
+        margin-right:100%;
+      }
+      
+      to {
+        margin-right: 0%;
+      }
+    }
